@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "advent-bootcamp"
+version = "0.1.0"
+description = "Advent of Code completions"
+authors = ["dymok <dymm@box4.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+advent-of-code-data = "^2.0.1"
+ipykernel = "^6.27.1"
+numpy = "^1.26.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
